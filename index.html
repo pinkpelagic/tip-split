@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="Utf-8" />
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+        <title></title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <form>
+            <h1>Tip & Split</h1>
+            <label>Your Total Bill Amount--</label>
+            <input placeholder="Bill Amount" id="billamt"/>
+            <label>How was the service here?</label>
+            <select id="servicequal">
+                <option disabled selected>-- Choose an Option --</option>
+                <option>Outstanding</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Bad</option>
+                <option>Horrible</option>
+            </select>
+            <label>Tip you want to give</label>
+            <input placeholder="Tip Amount" id="tipamt"/>
+            <label>How many people are sharing the bill?</label>
+            <input placeholder="" id="sharenum"/>
+            <button type="button" id="totalbill">CALCULATE</button>
+            <div id="displaytotal">
+                <span id="bill">.00</span>
+                <span id="each">each</span>
+            </div>
+        </form>
+       
+    </body>
+</html>
